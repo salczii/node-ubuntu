@@ -16,7 +16,7 @@ const users = [
 ];
 
 app.get("/", (req, res) => {
-  res.send("hello world!");
+  res.send(users.json());
 });
 
 app.get("/test", (req, res) => {
