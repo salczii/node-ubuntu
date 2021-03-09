@@ -41,6 +41,6 @@ ws.onmessage = function ({ data }) {
         webSocketOutput.prepend(msg);
     }
   } catch (e) {
-    console.log("Websocket error", e);
+    console.log("Websocket error", e);dedeede
   }
 };
